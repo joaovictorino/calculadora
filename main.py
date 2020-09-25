@@ -19,7 +19,7 @@ if __name__ == '__main__':
         print("Informe valor 2:")
         valor2 = int(input())
         print("Informe a operação:")
-        opoerador = input()
+        operador = input()
         resultado = teste.calcular(valor1, valor2, operador)
         print("Resultado: " + str(resultado))
         print("Desejar continuar? S/N")

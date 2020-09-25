@@ -18,7 +18,7 @@ if __name__ == '__main__':
         valor2 = int(input())
         print("Informe a operação:")
         operacao = input()
-        resultado = calcular(valor1, valor2, resultado, operadores)
+        resultado = calcular(valor1, valor2, operacao, operadores)
         print("Resultado: " + str(resultado))
         print("Desejar continuar? S/N")
         continuar = input()
