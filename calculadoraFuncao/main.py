@@ -7,19 +7,18 @@ import re
 import sys
 from calculadora import calcular
 
-
 if __name__ == '__main__':
     print("Informe as operações habilitadas (+) soma (-) subtração (*) multiplicação (/) divisão:")
     operadores = input()
     continuar = "S"
     while continuar == "S":
         print("Informe valor 1:")
-        a = int(input())
+        valor1 = int(input())
         print("Informe valor 2:")
-        b = int(input())
+        valor2 = int(input())
         print("Informe a operação:")
-        c = input()
-        d = calcular(a, b, c, operadores)
-        print("Resultado: " + str(d))
+        operacao = input()
+        resultado = calcular(valor1, valor2, resultado, operadores)
+        print("Resultado: " + str(resultado))
         print("Desejar continuar? S/N")
         continuar = input()
